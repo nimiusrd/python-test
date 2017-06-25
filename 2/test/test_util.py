@@ -16,5 +16,4 @@ class UtilTest(unittest.TestCase):
         ]
         for case in cases:
             with self.subTest(string=case):
-                print(case)
                 self.assertTrue(util.is_url(case))
